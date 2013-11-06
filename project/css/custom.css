@@ -1,0 +1,39 @@
+body{
+    /*background-color: #303030;*/
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+
+#section1{
+    background-image: url("../img/ipad-img-3ce0e5a0e0e099ddfd9487548b155281.jpg");
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+
+#section1 h1{
+    font-size: 56px;
+    color: #FFFEF5;
+}
+
+#section1 h3{
+    color: #FFFEF5;
+}
+
+#section1 .row{
+    margin-top: 150px;
+}
+
+#section2{
+    background-image: url("../img/badge-pattern-466bb5be2f2c434c454f973721b7a281.png");
+    background-repeat: repeat;
+    width: 100%;
+    height: 300px;
+    background-size: 50%;
+}
+
+#section2 .row:first-child{
+    margin-top: 100px;
+}
