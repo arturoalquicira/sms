@@ -37,3 +37,51 @@ body{
 #section2 .row:first-child{
     margin-top: 100px;
 }
+
+#player_page .row:first-child{
+    margin-top: 100px;
+}
+
+#player{
+    background-color: #303030;
+    height: 360px;
+}
+
+#comments{
+    background-color: #3EE3A6;
+    height: 360px;
+}
+
+.sprite {
+    background: url('../img/Record-Button-icon.png') no-repeat 1px -1px;
+    width: 26px;
+    height: 28px;
+}
+
+.btn.btn-default.btn-md.controls, .dropdowns{
+    position: relative;
+    top: 0px;
+    margin-left: 10px;
+}
+
+#record-btn {
+    width: 35px;
+    height: 35px;
+}
+
+
+.btn.btn-default.btn-md.controls:nth-child(5){
+    margin-right: 305px;
+}
+
+#seek-bar{
+    width: 100%;
+    height: 5px;
+    background-color: red;
+    margin-bottom: 5px;
+}
+
+#seek-bar-btn {
+    position: absolute;
+    top: 355px;
+}

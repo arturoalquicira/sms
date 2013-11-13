@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>SMS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/custom.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="js/swfobject.js"></script>
+    <script type="text/javascript" src="js/sms_setup.js"></script>
+</head>
+<body id="player_page">
+
+<nav class="navbar navbar-default" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Learn-It</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Library</a></li>
+            <li><a href="#">Pricing</a></li>
+
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <li><a href="index.html">Log Out</a></li>
+
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-7" id="player">
+            <div id="flashContent">
+                <script type="text/javascript">
+                    var pageHost = ((document.location.protocol == "https:") ? "https://" : "http://");
+                    document.write("<a href='http://www.adobe.com/go/getflashplayer'><img src='" + pageHost + "www.adobe.com/images/shared/download_buttons/get_flash_player.gif' alt='Get Adobe Flash player' /></a>" );
+                </script>
+            </div>
+            <div id="seek-bar">
+                <span id="seek-bar-btn" class="glyphicon glyphicon-record"></span>
+            </div>
+            <button id="pause-btn" type="button" class="btn btn-default btn-md controls">
+                <span class="glyphicon glyphicon-pause"></span>
+            </button>
+            <button id="play-btn" type="button" class="btn btn-default btn-md controls">
+                <span class="glyphicon glyphicon-play"></span>
+            </button>
+            <button type="button" id="record-btn" class="btn btn-default btn-md controls sprite">
+            </button>
+            <div class="btn-group dropdowns">
+                <button id="camera-btn" type="button" class="btn btn-default btn-md dropdown-toggle" data-toggle="dropdown">
+                    <span class="glyphicon glyphicon-facetime-video"></span>
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                </ul>
+            </div>
+            <div class="btn-group dropdowns">
+                <button id="mic-btn" type="button" class="btn btn-default btn-md dropdown-toggle" data-toggle="dropdown">
+                    <span class="glyphicon glyphicon-cog"></span>
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                </ul>
+            </div>
+            <button id="vol-btn" type="button" class="btn btn-default btn-md controls">
+                <span class="glyphicon glyphicon-signal"></span>
+            </button>
+        </div>
+        <div class="col-lg-offset-1 col-lg-4" id="comments"></div>
+    </div>
+</div>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/spin.js"></script>
+<script src="js/main.js"></script>
+<script src="js/demo.js"></script>
+
+</body>
+</html>
