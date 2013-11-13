@@ -85,3 +85,8 @@ body{
     position: absolute;
     top: 355px;
 }
+
+#comment-input {
+    position: relative;
+    top: 250px;
+}
